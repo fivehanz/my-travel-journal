@@ -38,7 +38,10 @@ function App() {
       <Header />
       <main className="container">
         {data.map((card: TravelJournal) => (
-          <Card {...card} />
+          <>
+            <Card {...card} />
+            <hr />
+          </>
         ))}
       </main>
     </div>

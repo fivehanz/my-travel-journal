@@ -6,7 +6,7 @@
 }
 
 body {
-  max-width: 34rem;
+  max-width: 34.375rem;
   margin: 0 auto;
   font-family: "Inter", sans-serif;
 }
@@ -17,6 +17,12 @@ a {
 
 .container {
   padding: 1rem 2.5rem;
+}
+
+@media (max-width: 30rem) {
+  .container {
+    padding: 0.5rem 1.2rem;
+  }
 }
 
 .header {
@@ -76,4 +82,13 @@ a {
 
 .card-description {
   font-size: 0.8rem;
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid rgba(245, 245, 245, 1);
+}
+
+hr:last-child {
+  display: none;
 }
