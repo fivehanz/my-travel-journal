@@ -11,6 +11,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+a {
+  color: rgba(145, 142, 155, 1);
+}
+
 .container {
   background-color: yellow;
   padding: 2.5rem;
