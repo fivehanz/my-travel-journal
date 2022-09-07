@@ -6,4 +6,5 @@ type TravelJournal = {
   date: string;
   description: string;
   country: string;
+  image: string;
 };
