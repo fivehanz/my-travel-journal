@@ -1,9 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
 
-#root {
-  max-width: 1280px;
+body {
+  max-width: 34rem;
   margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  background-color: yellow;
+  padding: 2.5rem;
+}
+
+.header {
+  background-color: rgba(245, 90, 90, 1);
+  color: #fff;
+
+  height: 3.4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header img {
+  width: 1.5rem;
 }
